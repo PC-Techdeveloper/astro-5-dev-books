@@ -4,6 +4,8 @@ import { defineConfig, envField } from 'astro/config';
 
 import netlify from '@astrojs/netlify';
 
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
 // server islands
 export default defineConfig({
@@ -21,5 +23,5 @@ export default defineConfig({
     }
   },
 
-  adapter: netlify()
+  adapter: vercel()
 });
