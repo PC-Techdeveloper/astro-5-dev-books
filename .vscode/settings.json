@@ -1,0 +1,113 @@
+{
+  // editor
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "blink",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "symbols",
+  "window.zoomLevel": 1.2,
+  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "right",
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.enable": true,
+  "oneDarkPro.vivid": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.suggest.maxVisibleSuggestions": 15,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "workbench.colorCustomizations": {},
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabSize": 2,
+  "workbench.activityBar.location": "top",
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "none",
+  "editor.lineHeight": 1.5,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class=\\\"([^\\\"]*)\\\"", "[^\\s]+"]
+  ],
+  "javascript.preferences.importModuleSpecifierEnding": "auto",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.suggest.showWords": false,
+  "security.workspace.trust.enabled": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.git/**": true
+  },
+  "typescript.tsserver.watchOptions": {
+    "watchFile": "fixedPollingInterval",
+    "watchDirectory": "dynamicPriorityPolling"
+  },
+  "javascript.suggest.enabled": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "files.useExperimentalFileWatcher": false,
+  "search.followSymlinks": false,
+  "editor.parameterHints.enabled": false,
+  "workbench.statusBar.visible": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
