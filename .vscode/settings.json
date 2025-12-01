@@ -1,6 +1,6 @@
 {
   // editor
-  "editor.fontSize": 13,
+  "editor.fontSize": 13.3,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
@@ -69,6 +69,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.startupEditor": "none",
+  "editor.quickSuggestionsDelay": 0,
   "editor.lineHeight": 1.5,
   "files.exclude": {
     "**/node_modules": true,
@@ -84,8 +85,8 @@
   "tailwindCSS.experimental.classRegex": [
     ["class=\\\"([^\\\"]*)\\\"", "[^\\s]+"]
   ],
+
   "javascript.preferences.importModuleSpecifierEnding": "auto",
-  "editor.quickSuggestionsDelay": 0,
   "editor.suggest.showWords": false,
   "security.workspace.trust.enabled": false,
   "files.watcherExclude": {
@@ -102,6 +103,10 @@
   "typescript.disableAutomaticTypeAcquisition": true,
   "files.useExperimentalFileWatcher": false,
   "search.followSymlinks": false,
+  "supermaven.allowGitignore": true,
+  "supermaven.enable": {
+    "*": true
+  },
   "editor.parameterHints.enabled": false,
   "workbench.statusBar.visible": false,
   "github.copilot.enable": {
@@ -109,5 +114,12 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "git.ignoreLimitWarning": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.shellIntegration.enabled": false
 }
