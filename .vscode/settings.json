@@ -45,7 +45,7 @@
   "terminal.integrated.cursorBlinking": true,
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "symbols",
-  "window.zoomLevel": 1.2,
+  "window.zoomLevel": 1.5,
   "files.autoSave": "afterDelay",
   "workbench.sideBar.location": "right",
   "prettier.arrowParens": "avoid",
@@ -70,7 +70,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.startupEditor": "none",
   "editor.quickSuggestionsDelay": 0,
-  "editor.lineHeight": 1.5,
+  "editor.lineHeight": 1.8,
   "files.exclude": {
     "**/node_modules": true,
     "**/dist": true,
