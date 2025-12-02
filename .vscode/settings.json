@@ -1,6 +1,6 @@
 {
   // editor
-  "editor.fontSize": 13.3,
+  "editor.fontSize": 13,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
@@ -108,7 +108,7 @@
     "*": true
   },
   "editor.parameterHints.enabled": false,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
