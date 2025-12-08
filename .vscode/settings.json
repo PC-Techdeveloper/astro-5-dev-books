@@ -49,11 +49,8 @@
   "prettier.singleQuote": true,
   "prettier.enable": true,
   "prettier.bracketSpacing": true,
-  "oneDarkPro.bold": true,
   "editor.quickSuggestions": {
-    "other": "on",
-    "comments": false,
-    "strings": false
+    "strings": true
   },
   "editor.suggestOnTriggerCharacters": true,
   "editor.acceptSuggestionOnEnter": "on",
@@ -125,7 +122,6 @@
     }
   },
   "eslint.enable": true,
-  "workbench.colorCustomizations": {},
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.fileNesting.enabled": true,
@@ -140,5 +136,9 @@
   "editor.suggest.showVariables": true,
   "rapidapi.terminalLink.enabled": false,
   "workbench.colorTheme": "One Dark Pro Darker",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "editor.experimental.stickyScroll.enable": true,
+  "oneDarkPro.vivid": true,
+  "workbench.colorCustomizations": {}
 }
