@@ -42,7 +42,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "workbench.iconTheme": "symbols",
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1.8,
   "files.autoSave": "afterDelay",
   "prettier.arrowParens": "avoid",
   "prettier.semi": false,
