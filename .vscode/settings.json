@@ -1,20 +1,10 @@
 {
   // editor
-  "editor.fontSize": 12,
+  "editor.fontSize": 12.6,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
   // cursor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
@@ -37,15 +27,16 @@
   },
   "eslint.alwaysShowStatus": true,
   //terminal
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "workbench.iconTheme": "symbols",
-  "window.zoomLevel": 1.8,
+  "window.zoomLevel": 1.55,
   "files.autoSave": "afterDelay",
-  "prettier.arrowParens": "avoid",
-  "prettier.semi": false,
+  "prettier.arrowParens": "always",
+  "prettier.printWidth": 90,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
   "prettier.enable": true,
   "prettier.bracketSpacing": true,
@@ -54,7 +45,6 @@
   },
   "editor.suggestOnTriggerCharacters": true,
   "editor.acceptSuggestionOnEnter": "on",
-  "editor.suggest.maxVisibleSuggestions": 15,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.inlineSuggest.enabled": true,
   "editor.tabSize": 2,
@@ -74,9 +64,7 @@
     "**/dist": true,
     "**/build": true
   },
-  "tailwindCSS.experimental.classRegex": [
-    ["class=\\\"([^\\\"]*)\\\"", "[^\\s]+"]
-  ],
+  "tailwindCSS.experimental.classRegex": [["class=\\\"([^\\\"]*)\\\"", "[^\\s]+"]],
 
   "javascript.preferences.importModuleSpecifierEnding": "auto",
   "editor.suggest.showWords": false,
@@ -135,10 +123,23 @@
   "editor.suggest.showFunctions": true,
   "editor.suggest.showVariables": true,
   "rapidapi.terminalLink.enabled": false,
-  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.sideBar.location": "right",
   "workbench.layoutControl.enabled": false,
   "editor.experimental.stickyScroll.enable": true,
-  "oneDarkPro.vivid": true,
-  "workbench.colorCustomizations": {}
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.renderLineHighlight": "none",
+  "breadcrumbs.enabled": false,
+  "workbench.tree.indent": 4,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "off",
+  "editor.folding": true,
+  "editor.glyphMargin": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.editorLargeFileConfirmation": 10024,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.showTabs": "multiple",
+  "window.menuBarVisibility": "compact",
+  "glassit.alpha": 210
 }
