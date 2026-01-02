@@ -1,176 +1,88 @@
 {
-  "breadcrumbs.enabled": true,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "editor.lineNumbers": "on",
-  "editor.codeLens": false,
-  "errorLens.enabled": true,
-  "editor.folding": true,
-  "files.autoSave": "afterDelay",
-  "editor.glyphMargin": true,
-  "editor.formatOnSave": true,
-  "editor.hover.enabled": "on",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "debug.console.fontSize": 15,
+  "debug.console.lineHeight": 36,
+  "debug.toolBarLocation": "docked",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.colorDecorators": true,
-  "editor.minimap.enabled": false,
-  "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "none",
-  "editor.suggestSelection": "first",
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.guides.indentation": false,
-  "editor.renderControlCharacters": false,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.bracketPairColorization.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.singleQuote": true,
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.renderLineHighlight": "all",
-
-  // font settings
-  "editor.fontSize": 14.3,
-  "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 14,
-  "workbench.fontAliasing": "antialiased",
+  "editor.cursorBlinking": "blink",
+  "editor.cursorStyle": "line",
   "editor.fontFamily": "Cascadia Code",
-  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
-
-  "explorer.compactFolders": false,
-
-  "files.trimTrailingWhitespace": true,
-  "files.exclude": {
-    "**/node_modules": true,
-    "**/package-lock.json": true,
-    // Hide js files after running tsc.
-    "**/*.js": { "when": "$(basename).ts" }
-  },
-
-  "search.searchOnType": false,
-  "scm.diffDecorationsGutterAction": "none",
-
-  "telemetry.telemetryLevel": "off",
-
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.cursorBlinking": true,
-  // "terminal.integrated.gpuAcceleration": "on",
-
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
-  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
-
-  // "workbench.activityBar.visible": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "zenMode.hideLineNumbers": false,
-
-  // italicize comments in github dark default theme
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "storage.type",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
-        "settings": {
-          "fontStyle": "underline"
-        }
-      },
-      {
-        "scope": "entity.other.inherited-class",
-        "settings": {
-          "foreground": "#A6E22E",
-          "fontStyle": "italic underline"
-        }
-      },
-      {
-        "scope": "variable.parameter",
-        "settings": {
-          "foreground": "#FD971F",
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "support.type, support.class",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "markup.heading.setext",
-        "settings": {
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": "markup.heading.markdown",
-        "settings": {
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": "markup.quote.markdown",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "markup.bold.markdown",
-        "settings": {
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": "markup.italic.markdown",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "markup.strikethrough",
-        "settings": {
-          "fontStyle": "strikethrough"
-        }
-      }
-    ]
-  },
-
-  // control what gets rendered in the editor overview ruler (scrollbar)
-  "editor.overviewRulerBorder": false,
-  "editor.occurrencesHighlight": "off",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13.1,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.folding": true,
+  "editor.parameterHints.enabled": true,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.selectionHighlight": true,
-  "editor.matchBrackets": "never",
-  "editor.stickyScroll.enabled": false,
-
-  "window.commandCenter": false,
-  "workbench.iconTheme": "symbols",
-  "workbench.tree.renderIndentGuides": "none",
-  "webgl-glsl-editor.format.placeSpaceAfterKeywords": true,
-  "[glsl]": {
-    "editor.inlayHints.enabled": "off",
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[csharp]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "omnisharp.useModernNet": false,
-  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
-  "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "none",
-  "dotnet.server.useOmnisharp": true,
-  "window.zoomLevel": 1.4,
+  "editor.lineNumbers": "on",
+  "editor.matchBrackets": "near",
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": "multiFile",
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+  "explorer.openEditors.visible": 1,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "markdown.preview.markEditorSelection": false,
+  "problems.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "terminal.integrated.fontSize": 15,
+  "window.autoDetectColorScheme": true,
+  "window.newWindowDimensions": "inherit",
+  "window.title": "${rootName}",
+  "window.titleBarStyle": "custom",
   "workbench.colorTheme": "One Dark Pro Darker",
-  "C_Cpp.formatting": "clangFormat",
-  "[cpp]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.iconTheme": "symbols",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredLightColorTheme": "One Dark Pro Darker",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1.25,
+  "workbench.sideBar.location": "left",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.suggestFontSize": 12,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.activityBar.location": "default",
+  "explorer.fileNesting.enabled": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2,
+  "editor.quickSuggestionsDelay": 200,
+  "editor.quickSuggestions": {
+    "strings": "on"
   },
-  "workbench.sideBar.location": "right"
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.italic": true,
+  "editor.wordBasedSuggestions": "currentDocument"
 }
